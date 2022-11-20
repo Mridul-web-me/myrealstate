@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="dist/vanilla-tabs.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sidebar.css">
+
+  <script src="https://kit.fontawesome.com/50431e992b.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <nav>
+    <!-- <div class="side">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Accueil</a>
+        <a href="#">A propos</a>
+        <a href="#">Les avantages</a>
+        <a href="#">Exemple de biens</a>
+        <a href="#">Nous Contacter</a>
+      </div>
+
+      Use any element to open the sidenav
+      <span onclick="openNav()">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+      </span>
+    </div> -->
+    <input type="checkbox" id="check" />
+    <label for="check" class="sideMenuIcon">
+      <!-- <i class="fa-sharp fa-solid fa-bars" id="btn"></i> -->
+      <div class="iconDiv">
+        <div class="icon"></div>
+        <div class="icon"></div>
+      </div>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+
+    <div class="sidebar">
+      <ul>
+        <li>
+          <a href="#">Accueil</a>
+        </li>
+        <li>
+         <a href="#propose">A propos</a>
+        </li>
+        <li>
+                  <a href="#lesAdvantages">Les avantages</a>
+        </li>
+        <li>
+                  <a href="#top">Exemple de biens</a>
+        </li>
+        <li>
+                  <a href="#footer">Nous Contacter</a>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <div class="top" id="top">
+      <div class="left">
+        <p>contact@mynarealestate.com</p>
+      </div>
+      <div>
+        <a
+          href="https://mynarealestate.com/wp-content/uploads/2022/03/Capture-de%CC%81cran-2022-03-29-a%CC%80-00.10.19.png">
+          <img src="img/right.png" loading="lazy" decoding="async" width="78" height="26" alt="">
+        </a>
+      </div>
+      <div class="logo">
+        <a href="#top">
+          <img src="img/logo.png" width="54px" height="54px" alt="logo">
+        </a>
+      </div>
+    </div>
+    <div class="nav-menu" id="nav-menu">
+      <div class="logo">
+        <a href="#top">
+          <img src="img/logo.png" width="54px" height="54px" alt="logo">
+        </a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a id="menuLink1" href="">Accueil</a></li>
+          <li><a id="menuLink2" href="#propose">A propos</a></li>
+          <li><a id="menuLink3" href="#lesAdvantages">Les avantages</a></li>
+          <li><a id="menuLink4" href="#top">Exemple de biens</a></li>
+          <li><a id="menuLink5" href="#footer">Nous Contacter</a></li>
+        </ul>
+      </div>
+      <div class="call">
+        <a href="tel:+971522057208">
+          <img src="img/call.png" alt="" width="20px">
+          <p>+971522057208</p>
+        </a>
+      </div>
+    </div>
+    <div class="banner">
+      <!-- <img src="img/banner2.jpg" width="100%" alt=""> -->
+      <div class="bannerText">
+        <h3>AGENCE IMMOBILIERE DES EMIRATS ARABE UNIS </h3>
+        <h1>MYNA REAL ESTATE </h1>
+        <a href="#footer" class="contactBtn">Nous contacter</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Propose Section -->
+  <div class="a-propose" id="propose">
+    <div class="proposeTextContent">
+      <div class="devider">
+        <div class="devider-width"></div>
+        <h5 class="text-center">MYNA REAL ESTATE</h5>
+      </div>
+      <div class="aProposeTitle">
+        <h2>A propos</h2>
+        <p>MYNA REAL ESTATE est spécialiste de l’immobilier aux Emirats Arabes Unis. Les biens que nous vous proposons
+          ont été sélectionnés, avec le <br> plus grand soin, par notre équipe d’experts. Ce sont des appartements de
+          prestige et des villas haut de gamme, toujours empreintes de luxe et <br> de raffinement. Nous sommes ravis de
+          pouvoir vous conseiller et vous accompagner dans votre projet immobilier, en vous apportant <br> l’expérience
+          et l’expertise d’un réseau. Excellence, élégance, confiance sont les valeurs qui nous animent et qui nous
+          guident dans tous les <br> projets que nous menons avec vous. </p>
+        <p>Notre unique priorité : VOUS.</p>
+      </div>
+    </div class="proposeBottomContent">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <p class="proposeBottomContentTitle">
+                  EQUIPES
+                </p>
+                <p class="proposeBottomText">MYNA REAL ESTATE est constitué d’une équipe polyvalente, francophone et
+                  anglophone, experte en immobilier et reconnue aux Emirats Arabes Unis.</p>
+              </div>
+              <div class="col-md-6">
+                <p class="proposeBottomContentTitle">
+                  PARTENAIRES
+                </p>
+                <p class="proposeBottomText">Nous collaborons en direct avec les plus grands promoteurs des Emirats
+                  Arabes Unis (Emaar, Damac, …). Ces partenariats nous permettent de vous proposer des biens
+                  d’exception.</p>
+              </div>
+              <div class="col-md-6">
+                <p class="proposeBottomContentTitle">
+                  POUR TOUS
+                </p>
+                <div class="proposeBottomText">
+                  Quelque soit votre budget, nous répondrons à votre besoin avec la même qualité de service et le même
+                  accompagnement.
+                </div>
+              </div>
+              <div class="col-md-6">
+                <p class="proposeBottomContentTitle">
+                  ADMINISTRATIF
+                </p>
+                <p class="proposeBottomText">En plus de la recherche ou de la vente de votre bien, nous vous
+                  accompagnons dans toutes vos démarches administratives.</p>
+              </div>
+              <div class="col-md-6">
+                <p class="proposeBottomContentTitle">
+                  DESIGN D’INTERIEUR
+                </p>
+                <p class="proposeBottomText">Nous avons au sein de notre équipe des designers d’intérieur convoités par
+                  les célébrités pour leur savoir-faire.</p>
+              </div>
+              <div class="col-md-6">
+                <p class="proposeBottomContentTitle">GESTION LOCATIVE</p>
+                <p class="proposeBottomText">Nous sommes là pour gérer la location de votre bien de A à Z: signature du
+                  bail, entrée et sortie des locataires, nettoyage,…</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <img src="img/banner.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Les Advanteges -->
+  <div class="lesAdvantages" id="lesAdvantages">
+    <div class="devider">
+      <div class="devider-width"></div>
+      <h5 class="text-center">Les avantages</h5>
+    </div>
+    <div class="lesAdvantagesTitle">
+      <h2>Investir à Dubaï</h2>
+      <p>Que ce soit pour votre résidence ou pour un investissement, les Emirats Arabe Unis <br> est un lieu
+        d’excellence pour l’immobilier!</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="lesAdvantageContent1">
+            <div class="lesAdvantagesContentImg">
+              <img src="img/lesadvanteg/house-2.png" width="65px" height="65px" alt="">
+            </div>
+            <div class="lesAdvantageContentText">
+              <h5>Qualité</h5>
+              <h3>Immobilier de qualité</h3>
+              <p> Les biens immobiliers sont toujours d’excellent niveau de <br> qualité avec une technicité haut de
+                gamme. Dubaï est <br> réputé dans le monde entier pour ces biens luxueux.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="lesAdvantageContent2">
+            <div class="lesAdvantagesContentImg">
+              <img src="img/lesadvanteg/asset-management.png" width="65px" height="65px" alt="">
+            </div>
+            <div class="lesAdvantageContentText">
+              <h5>location</h5>
+              <h3>Marché locatif dynamique</h3>
+              <p>En deux décennies, Dubaï est devenu la capitale <br> économique et touristique mondiale. De ce fait, le
+                marché <br> immobilier est en perpétuelle croissance.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="lesAdvantageContent1">
+            <div class="lesAdvantagesContentImg">
+              <img src="img/lesadvanteg/real-estate.png" width="65px" height="65px" alt="">
+            </div>
+            <div class="lesAdvantageContentText">
+              <h5>Fiscalité</h5>
+              <h3>Fiscalité attractive</h3>
+              <p> 0 % d’impôt – Dubai n’impose aucune taxe sur la <br> plus-value immobilière ou sur les revenus
+                locatifs. 100% <br> du bénéfice ira dans votre poche, sans aucune ponction. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="lesAdvantageContent2">
+            <div class="lesAdvantagesContentImg">
+              <img src="img/lesadvanteg/peer-to-peer.png" width="65px" height="65px" alt="">
+            </div>
+            <div class="lesAdvantageContentText">
+              <h5>Transfert</h5>
+              <h3>Frais de transfert faibles</h3>
+              <p>A Dubaï, actuellement, cette taxe s’élève à 4 % du prix de <br> la transaction et elle est acquittée
+                lors du transfert. Cette <br> taxe est l’une des moins chères au monde.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="lesAdvantageContent1">
+            <div class="lesAdvantagesContentImg">
+              <img src="img/lesadvanteg/real-estate-2.png" width="65px" height="65px" alt="">
+            </div>
+            <div class="lesAdvantageContentText">
+              <h5>Revenus</h5>
+              <h3>Rendements locatifs élevés</h3>
+              <p>Compte tenu du dynamisme du marché immobilier locatif,<br> les investissements peuvent générer jusqu’à
+                5 à 8, voire <br> 10% de rendement net d’impôt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="lesAdvantageContent2">
+            <div class="lesAdvantagesContentImg">
+              <img src="img/lesadvanteg/house.png" width="65px" height="65px" alt="">
+            </div>
+            <div class="lesAdvantageContentText">
+              <h5>propriété</h5>
+              <h3>Pleine propriété pour les étrangers</h3>
+              <p>Le droit immobilier à Dubaï prévoit que le droit de <br> posséder des biens immobiliers en pleine
+                propriété est <br> possible pour les étrangers dans plusieurs zones.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="lesAdvantageContent1">
+            <div class="lesAdvantagesContentImg">
+              <img src="img/lesadvanteg/carte-de-credit.png" width="65px" height="65px" alt="">
+            </div>
+            <div class="lesAdvantageContentText">
+              <h5>PAIEMENTS</h5>
+              <h3>Facilité de paiement</h3>
+              <p>Le paiement de la propriété, qui peut se faire facilement,<br> sur différentes durées, vous apporte
+                sérénité et souplesse <br> financière.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="lesAdvantageContent2">
+            <div class="lesAdvantagesContentImg">
+              <img src="img/lesadvanteg/pieces-de-monnaie.png" width="65px" height="65px" alt="">
+            </div>
+            <div class="lesAdvantageContentText">
+              <h5>finance</h5>
+              <h3>Une monnaie stable</h3>
+              <p>Le dirham des EAU est arrimé au dollar américain depuis <br> 1973 et à un taux stable depuis 1997.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Habiter à Dubaï -->
+
+  <div class="habiterAdubai">
+    <div class="devider">
+      <div class="devider-width"></div>
+      <h5 class="text-center">plusieurs raisons</h5>
+    </div>
+    <div class="habiterAdubaiTitle">
+      <h2>Habiter à Dubaï</h2>
+      <p>Dubaï est réputé pour son dynamisme et sa qualité de vie unique! C’est donc la <br> destination idéale si vous
+        souhaitez profiter d’une belle vie sociale et <br> professionnelle.</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="habiterAdubaiContent1">
+                <h1>
+                  HARMONIE ENTRE <br> LES COMMUNAUTÉS
+                </h1>
+                <p>
+                  Plus de 200 nationalités différentes vivent, <br> travaillent et s’amusent ensemble à Dubaï, <br> un
+                  parfait exemple d’inclusion, de mixité et <br> de sécurité, un havre de paix cosmopolite qui <br> vous
+                  accueille les bras ouverts.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="habiterAdubaiContent1">
+                <h1>SÉCURITÉ POUR <br> TOUS</h1>
+                <p>Les EAU sont considérés comme étant l’un <br> des pays les plus sûrs au monde. Grâce à leur <br>
+                  système d’application des lois, élaboré <br> minutieusement et avec clairvoyance, le taux <br> de
+                  criminalité est très bas, attirant ainsi des <br> résidents du monde entier.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="habiterAdubaiContentImg">
+            <img src="img/Burj-Khalifa-PNG-Transparent-Image-e1648541867372.png" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="habiterAdubaiContent2">
+                <h1>
+                  SALAIRE ET <br> AVANTAGES FISCAUX
+                </h1>
+                <p>A Dubaï, les contribuables ne paient aucun <br> impôt sur le revenu, de même qu’aucun <br> impôt sur
+                  les sociétés. Une convention fiscale <br> a été signée entre les Emirats arabes unis et <br> la
+                  France.</p>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="habiterAdubaiContent2">
+                <h1>DE BONS <br> INVESTISSEMENTS</h1>
+                <p>Découvrez tout le potentiel du marché <br> immobilier à Dubaï, avec ces appartements <br> de luxe
+                  dans les meilleurs quartiers de la ville <br> et profitez de son économie solide, de la <br> sécurité
+                  pour les capitaux, de rendements <br> élevés potentiels et de beaucoup d’autres <br> avantages
+                  incomparables.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Les principaux quartiers -->
+
+  <div class="principaux">
+    <div class="devider">
+      <div class="devider-width"></div>
+      <h5 class="text-center">Les avantages</h5>
+    </div>
+    <div class="principauxTitle">
+      <h2>Les principaux quartiers</h2>
+      <p>Dubaï est le membre le plus important des sept émirats qui composent les Emirats <br> Arabes Unis. La ville
+        s’est étendue à côté de la côte et présente plus de 50 kilomètres <br> d’étendue, se limitant au nord avec
+        Charjah, et au sud avec Jebel Ali.</p>
+    </div>
+
+    <div class="container">
+      <div class="tabs-section">
+        <ul id="tabs-h" class="tabs">
+          <li data-title="Old Town / Dubai Downtown">
+            <p>
+              Contrairement à son nom signifiant vieille ville en Anglais, ce quartier est l’un des plus récents de
+              Dubai. Il y abrite la célèbre Burj Khalifa, nommée en l’honneur du président des Emirats et Sheikh d’Abu
+              Dhabi et à ce jour la plus grande tour au monde; ainsi que le gigantesque Dubai Mall, censé être également
+              le plus grand centre commercial au monde. Vous y trouverez également plusieurs hôtels 5* ainsi que Soukh
+              Al Bahar, un souk reconstitue sur le modèle d’un ancien souk arabe mais où les prix ne sont pas
+              négociables et plus élevés que ceux des souks de Deira.
+            </p>
+            <p>Dowtown Dubai dispose de nombreux hôtels , plus de 200 au total, avec de nouveaux hôtels ouvrant chaque
+              mois dans le quartier.</p><br>
+            <img src="img/bcd945ad-4bcc-4ee9-affd-2cba499f41a6_At-The-Top-Burj-Khalifa-3.jpg" width="300" height="172"
+              alt="">
+          </li>
+          <li data-title="Dubai Creek  Harbour">
+            <p>Dubai Creek Harbour est le tout dernier quartier de Dubai qui à terme accueillera la future tour la plus
+              haute au monde, qui dépassera la hauteur du Burj Khalifa. On s’attend à ce que cette nouvelle tour, nommée
+              pour le moment Dubai Creek Harbour Tower, atteigne les 1000m soit 1km de haut !
+              <br>
+              <br>
+              Le quartier accueillera également de nombreuses résidences, une marina, et le plus grand centre commercial
+              au monde, Dubai Creek Harbour Mall, qui sera également plus grand que le Dubai Mall, actuellement plus
+              grand centre commercial au monde.
+            </p>
+            <br>
+            <img src="img/the-tower-dubai-creek-harbor-10-RESIZE.jpg" width="300" height="172" alt="">
+          </li>
+          <li data-title="Business Bay">
+            <p>Business Bay est un des quartiers modernes et récent de Dubai, construit vers la fin des années 2000 et
+              toujours en expansion avec de nouvelles tours venant s’ajouter au quartier tous les mois. Business Bay est
+              un quartier d’affaire et résidentiel. On y trouve de nombreuses tours de bureaux et également des
+              immeubles à usage d’habitation.
+
+              <br> <br>
+              Le quartier de Business Bay est situé juste après le quartier de Dubai Downtown et offre des vues sur le
+              Burj Khalifa depuis la plupart de ses tours. Le quartier dispose également de sa propre station de métro,
+              du même nom.
+            </p><br>
+            <img src="img/Business-Bay-Dubai-RESIZE.jpg" width="300" height="172" alt="">
+          </li>
+          <li data-title="Jumeirah / Umm Suqueim">
+            <p>Ces deux quartiers résidentiels parallèles longent la côte de Dubai. Jumeirah étant le plus adjacent à la
+              mer et aux plages de Dubai. Vous y trouverez le complexe privé Dubai Marina, faisant face à la très
+              célèbre mosquée Jumeirah, avec sa plage privée et restaurants ainsi que d’autres plages publiques
+              gratuites et très bien entretenues, parfois surveillées.
+
+              <br> <br>
+              La plage de Jumeirah est également un lieu emblématique de Dubai avec les hôtels Burj Al Arab (hôtel 7* en
+              forme de voile), Jumeirah Beach Hotel (en face du Burj al Arab, en forme de vague avec son parc aquatique
+              Wild Wadi) ainsi que d’autres hôtels de luxe du groupe Jumeirah et le fameux souk Madinat ; autre souk
+              moderne bâtit sur le modèle d’un souk traditionnel abritant de nombreuses échoppes offrant produits
+              traditionnels, souvenirs ainsi que de nombreux restaurants de qualité, bars et discothèques. Les
+              commerces, restaurants et cafés sont à proximité et les transports en commun assez accessibles.
+              <br> <br>
+              Le quartier de Jumeirah Beach accueille également le sur-luxueux complexe hotellier Four Seasons Dubai at
+              Jumeirah Beach avec notamment le restaurant de viandes Nusret de Salt Bae ou encore le beach club
+              mondialement connu de Nikki Beach Resort & Spa Dubai.
+            </p><br>
+            <img src="img/madinat_jumeirah-RESIZE.jpg" width="300" height="172" alt="">
+          </li>
+          <li data-title="Dubai Marina">
+            <p>
+              Un des quartiers les plus modernes de Dubai construit autour d’une marina où mouillent yachts de luxe,
+              voiliers et autres bateaux. Le quartier comprend plus de 200 tours d’appartements et d’hôtels, et la plus
+              grande marina créée par l’homme au monde, avec 10 km de promenade au bord de l’eau et ses nombreux
+              bateaux. Quartier résidentiel de Dubai privilégié par les expats et touristes de passage. Vous pouvez
+              également y faire du shopping au Marina Mall ainsi que dîner dans l’un des nombreux restaurants bordant le
+              Marina Walk.
+              <br> <br>
+              Dubai Marina dispose de nombreux hôtels classifiés 4 à 5* ainsi que de nombreux hôtels appartements. En
+              fonction de la saison, il est possible de trouver de très bons deals pour une chambre d’hôtel pour votre
+              séjour dans le quartier de Dubai Marina.
+            </p> <br>
+            <img src="img/Dubai-43-RESIZE.jpg" width="300" height="172" alt="">
+          </li>
+          <li data-title="Jumeirah Beach Residence">
+            <p>
+              Communément appelé JBR par les résidents de Dubai, ce quartier faisant face à Dubai Marina et longeant la
+              côte de Dubai est l’un des quartiers les plus populaires de la ville, non seulement pour les touristes
+              mais aussi pour les résidents. A Jumeirah Beach Residence, vous aurez le choix entre différents
+              restaurants, cafés et magasins. Vous aurez accès aux transports en commun (tramway, bus, taxis) mais vous
+              souffrirez des embouteillages. Apprécié des célibataires et des jeunes couples, il séduit de plus en plus
+              de familles du fait de la proximité de The Beach, une grande plage publique animée, bordée de restaurants
+              et de cafés.
+              <br><br>
+              Vous y trouverez aussi une infinité de restaurants longeant l’avenue JBR The Walk, pour tous les goûts et
+              toutes les bourses ainsi que nombreuses boutiques. Un marché s’y tient les soirs du Mercredi au Samedi d’
+              Octobre à Juin. C’est également à cet endroit que vous verrez défiler, plus particulièrement les soirs de
+              week-end, un cortège de voitures de luxe et de sport customisées toutes aussi exceptionnelles et
+              extravagantes les unes que les autres. N’oubliez pas vos appareils photos! <br><br>
+              JBR dispose de nombreux hôtels et resorts avec plage privée ou vue directe sur la mer. Il s’agit pour la
+              grande majorité d’hôtels 5*.
+            </p><br>
+            <img src="img/167eb357f045-RESIZE.jpg" width="300" height="172" alt="">
+          </li>
+          <li data-title="Al Barsha">
+            <p>
+              Ce quartier à proximité de Media et Internet City propose de nombreux hôtels avec un bon rapport qualité
+              prix ainsi que de nombreux hôtels-appartements. Le quartier est très bien desservi par les transports en
+              communs, taxi et plusieurs stations de métro. Des centres commerciaux dont le Mall of the Emirates font
+              également partie de ce quartier. Pour faire vos courses alimentaires vous trouverez un Carrefour et un
+              Lulu Hypermarket,grand supermarché de la région. <br><br>
+              Beaucoup de touristes francophones en vacances à Dubai résident dans le quartier de Barsha en raison de
+              son côté central, les nombreuses stations de métro qui le déservent et sa proximité de la plage et autres
+              quartiers de Dubai comme la Marina, JBR, etc..
+            </p><br>
+            <img src="img/banner2.jpg" width="300" height="172" alt="">
+          </li>
+          <li data-title="Palm Jumeirah">
+            <p>
+              Ile artificielle construite sur la mer et image symbolique de Dubai, ce quartier plutôt résidentiel est
+              également lieu d’implantation de l’ hôtel Atlantis ainsi que d’autres hôtels-palaces tels que le Jumeirah
+              Saray ou le One and Only. Une fois sur la palme, on ne se rend plus compte qu’on y est vraiment et la
+              perspective est bien plus intéressante vue du ciel. Vous pouvez visiter une partie de l’ hôtel Atlantis
+              gratuitement, d’autres parties étant payantes, tout comme le parc nautique géant Aquaventure faisant
+              partie de l’hôtel. <br> <br>
+              On retrouve également sur la palm les complexes hotelliers (resorts) du Sofitel Palm Jumeirah ou encore
+              Anantara The Palm Dubai Resort.
+            </p><br>
+            <img src="img/article-palm-jumeirah-1-e1628371512412.jpg" width="300" height="172" alt="">
+          </li>
+          <li data-title="Jumeirah Lake Towers">
+            <p>
+              Communément appelé JLT. Situé face à Dubai Marina, de l’autre côté de la Sheikh Zayed Road. Quartier
+              uniquement résidentiel et d’affaires. Vous y trouverez quelques hotels, en général de catégorie 4* et avec
+              des tarifs beaucoup plus intéressants que dans les quartiers de Dubai Marina ou JBR.
+            </p><br>
+            <img src="img/jlt-jumeirah-lake-towers-1777-180226153727-RESIZE.jpg" width="300" height="172" alt="">
+          </li>
+          <li data-title="Festival City">
+            <p>Quartier résidentiel et commercial situé en périphérie de Dubai avec également des hôtels de luxe (Crown
+              Plaza et Intercontinental). On y trouve notamment le IKEA de Dubai ainsi qu’un centre commercial :
+              Festival City.</p> <br>
+            <img src="img/FESTIVAL-CITY-LA-NUT-RESIZE.jpg" width="300" height="172" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+
+  <div class="faq">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="devider">
+            <div class="devider-width"></div>
+            <h5 class="text-center">LES QUESTIONS FREQUENTES</h5>
+          </div>
+          <div class="faqTitle">
+            <h2>FAQ</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  L'achat d'un bien résidentiel à Dubaï
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p><em>Les étrangers ont le droit d’acheter des biens résidentiels situés dans des zones désignées «
+                      bail emphytéotique » ou « pleine propriété », et le processus d’achat est relativement
+                      simple.</em></p>
+                  <p>Le marché résidentiel à Dubaï s’est ouvert aux étrangers en 2002. Depuis, il a attiré beaucoup
+                    d’acheteurs parmi les expatriés et les investisseurs étrangers. <strong>Les étrangers ont le droit
+                      d’acheter des biens dans les zones de bail emphytéotique</strong>, qui ont tendance à être à
+                    proximité du centre-ville, <strong>ou dans les zones de pleine propriété</strong>, qui sont
+                    réparties dans tout l’émirat. Le nombre d’unités disponibles pour les étrangers a augmenté
+                    considérablement au fil du temps avec une abondance d’appartements, villas et maisons de ville
+                    actuellement en vente.</p>
+                  <p>Les propriétés résidentielles à Dubaï se sont restées à l’abri de l’impôt après l’introduction
+                    d’une taxe sur la valeur ajoutée dans les Émirats arabes unis en 2018. <strong>Ces propriétés sont
+                      soit détaxées soit exonérées d’impôt.</strong></p>
+                  <p>Un autre avantage à investir dans une propriété à Dubaï est que <strong>les étrangers (et leurs
+                      personnes à charge) reçoivent un visa résidentiel</strong> s’ils investissent au moins EUR 240
+                    millions (1 million AED) dans un bien en pleine propriété avec un titre de propriété valide (en
+                    d’autres termes, ce visa n’est pas valable pour ceux qui ont investi dans des propriétés sur plan).
+                    Les visas de résidence disponibles sont les suivants :</p>
+                  <p>• Visa de 3 ans renouvelable si l’investissement est de 240 millions d’euro (1 million AED) ou plus
+                  </p>
+                  <p>• Visa de 5 ans renouvelable si l’investissement est de 1.2 million d’euro (5 million AED) ou plus
+                  </p>
+                  <p>• Visa de 5 ans renouvelable pour les «&nbsp;retraités&nbsp;» de plus de 55 ans, si
+                    l’investissement est de 485,000 euro (2 millions AED) ou plus</p>
+                  <p>Le processus d’achat d’un bien immobilier est relativement simple. L’acheteur étranger doit
+                    simplement détenir un passeport valide – <strong>un visa de résident n’est pas nécessaire</strong>.
+                    L’acheteur peut travailler avec un agent immobilier sur place ou directement avec le développeur
+                    pour trouver la bonne propriété et compléter les formalités nécessaires.</p>
+                  <p>Selon les consultants Knight Frank, <strong>la durée moyenne d’une transaction à Dubaï est de 30
+                      jours</strong> à partir de la date de signature du contrat de vente.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Comment obtenir un prêt immobilier à Dubaï?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>Alors que les achats en espèces restent courants à Dubaï, les emprunts immobiliers sont en hausse
+                    et constituent une partie importante des investissements immobiliers récents. Selon la Banque
+                    centrale des Émirats arabes unis, les prêts immobiliers représentaient 15 % des investissements
+                    immobiliers en 2018 (pour des propriétés en dessus de 10 millions AED).</p>
+                  <p>Obtenir un prêt immobilier à Dubaï est relativement facile pour les ressortissants des Émirats
+                    arabes unis, les expatriés résidents et les investisseurs étrangers non-résidents à Dubaï. En
+                    principe, les banques exigent une pièce d’identité valide et une preuve de revenus, que ce soit des
+                    salaires, des revenus d’un travail indépendant ou d’actifs. Un accord de principe peut être obtenu
+                    sous 3 ou 4 jours, avec une semaine supplémentaire pour l’accord de prêt définitif.</p>
+                  <p>Les demandeurs devraient obtenir un accord de principe avant de commencer leur recherche pour un
+                    bien pour déterminer si des restrictions existent quant à leur budget, et surtout avant de payer un
+                    acompte.</p>
+                  <p>La plupart des grandes banques à Dubaï proposent des prêts immobiliers, laissant aux demandeurs
+                    l’embarras du choix. Chaque banque dispose de ses propres conditions et il est important de savoir
+                    que les taux d’intérêt sont mis à jour régulièrement en fonction des taux de l’EIBOR (Emirates
+                    Interbank Offered Rate). Le dirham est lié au dollar américain, et les taux d’intérêt locaux à Dubaï
+                    changent selon les modifications que la Réserve fédérale américaine apporte à ses taux d’intérêt.
+                  </p>
+                  <p>Ainsi, les futurs propriétaires se retrouveront pris en sandwich entre un prix de l’immobilier
+                    attractif et une fluctuation des taux d’intérêt, et il sera nécessaire d’étudier la meilleure
+                    manière de structurer les remboursements. Les demandeurs peuvent également solliciter les services
+                    de conseillers experts pour déterminer le meilleur prêt et les meilleurs taux selon leurs besoins.
+                  </p>
+                  <p>Si le demandeur passe par un conseiller ou travaille directement avec une banque, la négociation
+                    est capitale car les prêts immobiliers se mettent en place au cas par cas à Dubaï.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Les taxes et frais pour les expatriés à Dubaï
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>Les EAU a toujours attiré les meilleurs talents et les investisseurs en raison de son statut libre
+                    d’impôt. Bien qu’il n’y a pas d’impôt sur le revenu personnel, les salaires, les gains en capital et
+                    l’héritage, une taxe sur la valeur ajoutée (TVA) a été introduit en 2018, après la chute du prix du
+                    pétrole a mis les coffres du gouvernement sous pression. Un tarif standard de 5 % de TVA s’applique
+                    à la plupart des produits, biens et services dans le pays, ce qui a entraîné une légère augmentation
+                    du coût de la vie.</p>
+                  <p>Le montant de la TVA est généralement inclus dans le prix demandé pour les produits et services –
+                    de sorte que le prix qui s’affiche sur l’étiquette est le prix à payer.</p>
+                  <p>Hormis la TVA, les gouvernements des différents émirats ont toujours imposé des frais pour divers
+                    services, tels qu’une taxe d’habitation, des frais de transfert de propriété, des frais
+                    d’enregistrement et des frais sur le savoir et l’innovation.</p>
+                  <p>Au niveau national, les EAU facture également un droit douanier sur les produits dits « immoraux »
+                    comme l’alcool, le tabac, les boissons gazeuses et les boissons énergisantes.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  Frais pour les propriétaires et investisseurs
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>Les entreprises au chiffre d’affaires de plus de EUR 90,000 (375,000 AED) pour biens ou services taxables au cours d’une année doivent s’inscrire à la TVA. Les entreprises au chiffre d’affaires de plus de EUR 45,500 (187,500 AED) par an peuvent choisir ou non de s’inscrire à la TVA. Les grandes entreprises peuvent demander à leurs fournisseurs un numéro d’immatriculation fiscale (TRN) ; les petites entreprises choisissent souvent l’option de s’inscrire à la TVA.</p><p>Les déclarations de TVA doivent être déposées dans un délai de 28 jours à compter de la fin de la période fiscale qui s’applique à l’entreprise. La période fiscale standard est :</p><p>• Tous les trimestres pour les entreprises réalisant un chiffre d’affaires annuel inférieur à 150 millions AED</p><p>• Tous les mois pour les entreprises avec un chiffre d’affaires annuel de 36 millions d’euro (150 millions AED) ou plus</p><p>Les entreprises qui collectent la TVA auprès de leurs clients qui est ensuite versée au gouvernement peuvent récupérer la TVA qu’elles paient aux fournisseurs. Ceci afin d’éviter que la TVA ne soit appliquée plusieurs fois à un bien ou service donné.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Quelques notions -->
+
+  <div class="quelquesNotions">
+    <div class="devider">
+      <div class="devider-width"></div>
+      <h5 class="text-center">l'immobilier à dubaï</h5>
+    </div>
+    <div class="quelquesNotionsTitle">
+      <h2>Quelques notions</h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                Visa de 5 ans pour investisseurs immobiliers
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Depuis 2020, il existe la possibilité pour les investisseurs immobiliers d’obtenir une résidence permanente dans l’émirat de Dubaï. <span class="break-words"><span dir="ltr">obtenir un droit de séjour permanent renouvelable d’une durée de cinq ans. </span></span></p><p><span class="break-words"><span dir="ltr">La valeur du bien ne doit pas être inférieure au montant de 5 000 000 AED (environ 1 165 000 euros). En outre, le bien doit être détenu en pleine propriété (bail héréditaire n’est pas autorisée) et le prix d’achat doit avoir été payé en totalité par des capitaux propres ; le financement par emprunt n’est pas autorisé.<br></span></span></p><p><span class="break-words"><span dir="ltr">Le droit de séjour permanent peut également être étendu aux enfants et aux conjoints du bénéficiaire, mais ne donne pas le droit d’exercer une activité rémunérée à Dubaï.<br></span></span></p><p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                Visa de 3 ans pour les propriétaires immobiliers (« Taskeen »)
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Le programme dit «&nbsp;Taskeen&nbsp;» permet aux investisseurs immobiliers d’obtenir <span class="break-words"><span dir="ltr">un droit de résidence permanente de trois ans renouvelable dans l’émirat de Dubaï. </span></span></p><p><span class="break-words"><span dir="ltr">La valeur du bien ne doit pas être inférieure à 750 000 AED (environ 175 000 euros). Si le bien est financé par emprunt, au moins 750 000 AED de fonds propres doivent avoir été apportés à l’achat du bien. </span></span></p><p><span class="break-words"><span dir="ltr">En outre, le droit de séjour permanent peut également être étendu aux enfants et aux conjoints du bénéficiaire.</span></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSeven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                Dubai visa pour retraités
+              </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Depuis le 3 septembre 2020, les retraités du monde entier peuvent s’installer définitivement à Dubaï.</p><p>L’octroi d’un soi-disant «visa de retraite» est une nouveauté pour les EAU et nécessite une preuve de stabilité financière ou de possession d’une propriété à Dubaï.</p><p>La stabilité financière est définie comme un revenu mensuel de 20 000 AED ou plus ou un actif liquide de 1 000 000 AED ou plus.<br>Une propriété située à Dubaï est également éligible pour un visa de retraite si elle dépasse 2 000 000 AED.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingEight">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                Retour sur investissement (« ROI »)
+              </button>
+            </h2>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Le ROI calcule le rendement d’un investissement en rapportant le bénéfice de l’investissement au capital utilisé. Il est calculé comme suit : (revenus (par ex. loyer)) – (coûts de l’investissement (par ex. entretien)) / volume total de l’investissement.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingNine">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                Common Areas (espaces communs)
+              </button>
+            </h2>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Les zones communes sont définies comme les zones qui sont utilisées conjointement dans les immeubles en copropriété par les résidents et les propriétaires. Il s’agit généralement de zones telles que les entrées, les salles de fitness, la piscine ainsi que les escaliers et les couloirs.</p><p>Les parties communes sont gérées par l’association des propriétaires et les coûts d’entretien et de réparation (frais de gestion) sont facturés aux propriétaires au prorata.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTen">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                Contrat de vente et d’achat (Sale and Purchase Agreement: SPA)
+              </button>
+            </h2>
+            <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Contrat d’achat contenant toutes les réglementations pertinentes pour l’achat de biens immobiliers sur plan à Dubaï. Cela comprend le prix d’achat, les autres conditions contractuelles accessoires et les conditions de paiement. Un contrat de vente et d’achat (SPA) est généralement utilisée dans les transactions sur plan entre les acheteurs et les promoteurs de projets.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingEleven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                Yield (rendement)
+              </button>
+            </h2>
+            <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Exprimé en pourcentage, le rendement est le bénéfice généré par le bien par rapport au capital utilisé. Il est calculé en comparant le rendement net – généralement les loyers moins les coûts pertinents – avec le capital utilisé (prix de la transaction plus les frais de service) (voir aussi «&nbsp;RCI«&nbsp;).</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwelve">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                Transfer Fee (frais de transfert) pour l’achat d’un bien immobilier
+              </button>
+            </h2>
+            <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Frais de transfert (frais de transfert) pour l’achat d’un bien immobilier<br>Frais facturés par le département foncier de Dubaï pour le transfert de propriété du vendeur à l’acheteur.</p><p>Actuellement, cette taxe s’élève à 4 % du prix de la transaction et elle est acquittée lors du transfert au Dubai Land Department.&nbsp;En général, les parties à la transaction paient les frais à parts égales, sauf si elles en ont convenu autrement par contrat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThirteen">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+                Property Management (Gestion de la propriété)
+              </button>
+            </h2>
+            <div id="flush-collapseThirteen" class="accordion-collapse collapse" aria-labelledby="flush-headingThirteen" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Service offert aux propriétaires de biens immobiliers, qui comprend généralement la gestion des baux, l’entretien et les réparations techniques, ainsi que les services comptables liés à la gestion d’un bien immobilier.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFourteen">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
+                Contrat de vente standardisé 
+              </button>
+            </h2>
+            <div id="flush-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFourteen" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Formulaire F (Formulaire F) – Contrat standardisé entre le vendeur et l’acheteur d’un bien immobilier à Dubaï, qui décrit en détail les conditions de la transaction immobilière (également connu sous le nom de « contrat de vente unifié »).</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFifteen">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFifteen" aria-expanded="false" aria-controls="flush-collapseFifteen">
+                Achat d’un bien immobilier sur plan (« Off-Plan »)
+              </button>
+            </h2>
+            <div id="flush-collapseFifteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFifteen" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Les biens immobiliers qui sont en construction au moment de l’achat. À Dubaï, un cadre juridique complet a maintenant été créé pour protéger les intérêts des acheteurs lors de l’achat de biens immobiliers en construction.</p><p>Les achats sur plan peuvent avoir lieu entre les développeurs de projets et les acheteurs (marché primaire) ou entre deux acheteurs (marché secondaire). Lors de l’achat auprès du promoteur du projet, l’acheteur reçoit le certificat Oqood du ministère des affaires foncières de Dubaï comme preuve de propriété (au lieu du titre de propriété) et est inscrit dans le registre immobilier provisoire du ministère des affaires foncières de Dubaï&nbsp;en tant que propriétaire.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSixteen">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSixteen" aria-expanded="false" aria-controls="flush-collapseSixteen">
+                Courtier (agent) en immobilier dans l’émirat de Dubaï
+              </button>
+            </h2>
+            <div id="flush-collapseSixteen" class="accordion-collapse collapse" aria-labelledby="flush-headingSixteen" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Dans l’Émirat de Dubaï, un agent (agent immobilier) est une personne qui agit en tant qu’intermédiaire entre les vendeurs et les acheteurs de biens immobiliers (marché secondaire) et entre les promoteurs de projets et les acheteurs sur le marché primaire (&nbsp;» sur plan «&nbsp;) lors de l’achat de biens immobiliers. Dans l’émirat de Dubaï, toute personne agissant en tant qu’agent immobilier doit être en possession d’une carte RERA et d’une licence d’exploitation du ministère du développement économique (DED).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-top" id="footer">
+      <div class="container">
+        <div class="footerTextContent">
+          <h1>Nous contacter</h1>
+           <p>Quelque soit votre besoin, nous sommes à votre écoute 7j / 7</p>
+        </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Tel.: (+971) 522057208<br>Email: contact@mynarealestate.com</p>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"> Prénom et nom</label>
+            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput2" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <input type="submit" value="Envoyer" class="wpcf7-form-control has-spinner wpcf7-submit">
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>
+          Copyright © 2022 - MYNA REAL ESTATE                 
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="dist/vanilla-tabs.min.js"></script>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
